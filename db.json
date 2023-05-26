@@ -60,7 +60,7 @@
       "name": "Cup Pillow",
       "price": 20,
       "categoryId": 4,
-      "stock": 99,
+      "stock": 500,
       "img": [
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/cup-pillow1.jpg",
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/cup-pillow2.jpg"
@@ -71,7 +71,7 @@
       "name": "Cellphone Case",
       "price": 10,
       "categoryId": 2,
-      "stock": 99,
+      "stock": 500,
       "img": [
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/cellphone-case1.jpg",
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/cellphone-case2.jpg"
@@ -82,7 +82,7 @@
       "name": "Cups x3",
       "price": 25,
       "categoryId": 4,
-      "stock": 100,
+      "stock": 500,
       "img": [
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/cups1.jpg",
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/cups2.jpg"
@@ -93,7 +93,7 @@
       "name": "Diary",
       "price": 8,
       "categoryId": 4,
-      "stock": 100,
+      "stock": 500,
       "img": [
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/diary1.jpg",
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/diary2.jpg"
@@ -104,7 +104,7 @@
       "name": "Flowerport",
       "price": 40,
       "categoryId": 4,
-      "stock": 100,
+      "stock": 500,
       "img": [
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/flowerpot1.jpg",
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/flowerpot2.jpg"
@@ -115,7 +115,7 @@
       "name": "Headphone Charger",
       "price": 55,
       "categoryId": 2,
-      "stock": 100,
+      "stock": 500,
       "img": [
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/headphone-charger1.jpg",
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/headphone-charger2.jpg"
@@ -137,7 +137,7 @@
       "name": "Lamp",
       "price": 20,
       "categoryId": 2,
-      "stock": 100,
+      "stock": 500,
       "img": [
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/lamp1.jpg",
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/lamp2.jpg"
@@ -148,7 +148,7 @@
       "name": "Pea Pillow",
       "price": 20,
       "categoryId": 1,
-      "stock": 100,
+      "stock": 500,
       "img": [
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/pea-pillow1.jpg",
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/pea-pillow2.jpg"
@@ -159,7 +159,7 @@
       "name": "Teddy in costume",
       "price": 20,
       "categoryId": 1,
-      "stock": 100,
+      "stock": 500,
       "img": [
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/teddy-in-costume1.jpg",
         "https://raw.githubusercontent.com/MariCornelio/kwai-store-mock-server/main/resources/images/teddy-in-costume2.jpg"
@@ -168,15 +168,15 @@
   ],
   "orders": [
     {
-      "name": "Mari cornelio",
+      "name": "mari",
       "store": {
-        "id": 5,
-        "name": "Monmouth St - Kwai Store",
-        "address": "11 Monmouth Street",
-        "city": "París",
+        "id": 1,
+        "name": "kwai Store at Beekman",
+        "address": "38 Park Row",
+        "city": "New York",
         "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
       },
-      "date": "22/5/2023",
+      "date": "25/5/2023",
       "isDelivery": false,
       "id": 1
     }
@@ -187,24 +187,6 @@
         {
           "productId": 1,
           "productName": "Cup Pillow",
-          "quantity": 1,
-          "model": 1
-        },
-        {
-          "productId": 1,
-          "productName": "Cup Pillow",
-          "quantity": 1,
-          "model": 2
-        },
-        {
-          "productId": 2,
-          "productName": "Cellphone Case",
-          "quantity": 1,
-          "model": 1
-        },
-        {
-          "productId": 2,
-          "productName": "Cellphone Case",
           "quantity": 1,
           "model": 2
         }
